@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+
+# defining services for front-end 
+  client:
+    image: moby/bcb
+    stdin_open: true
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+    networks:
+      - mern-app
+
+# defining services for back-end         
+  server:
+    image: moby/bcbnode
+    ports:
+     - "5000:5000"
+    networks:
+      - mern-app
+
+# using default networks setting
+networks:
+  mern-app:
+    driver: bridge
+
+# default option for volumes also
+volumes:
+    data-volume:
+    node_modules:
+    web-root:
+      driver: local
