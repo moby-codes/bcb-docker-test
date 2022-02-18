@@ -46,11 +46,11 @@ Make sure to change <password> to the DB password.
   
 ## Running with Docker
   Open terminal and type the following: 
-  
+ 
+```
   docker-compose up
-  
   (make sure docker is running in the background)
-
+```
 ## Running tests
 
 From the root directory of the project:
