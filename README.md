@@ -22,7 +22,7 @@ Jest/React testing library - A Javascript testing framework and library
 Clone this repo
 
 ```
-https://github.com/moby-codes/makers-final-project.git
+https://github.com/moby-codes/bcb-docker-test.git
 ```
 
 Open the root directory of the project inside your terminal and run the following command
@@ -43,6 +43,13 @@ PORT=5000
 ```
 
 Make sure to change <password> to the DB password.
+  
+## Running with Docker
+  Open terminal and type the following: 
+  
+  docker-compose up
+  
+  (make sure docker is running in the background)
 
 ## Running tests
 
@@ -52,7 +59,7 @@ From the root directory of the project:
 cd client
 npm test
 ```
-
+  
 Type `a` to run all test suites.
 
 ## Starting the application
