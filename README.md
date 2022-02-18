@@ -17,6 +17,8 @@ Node(.js) - the premier JavaScript web server <br />
 
 Jest/React testing library - A Javascript testing framework and library
 
+Docker
+
 ## Initial Setup
 
 Clone this repo
